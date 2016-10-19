@@ -1,0 +1,120 @@
+$color1: #026c36;
+$color2: #51F90C;
+$color3: #5B7510;
+$color4: #e5e5ae;
+$color5: #ebebd8;
+$color6: #730c09;
+$color7: #A40CEC;
+
+@mixin colors($color, $background) {
+    color: $color;
+    background-color: $background;
+}
+@mixin margin-auto {
+    margin: 5px auto;
+}
+@mixin size {
+    height: 10px;
+    width: 10px;
+}
+@mixin container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+@mixin button-variant($color, $background, $border) {
+    color: $color;
+    background-color: $background;
+    border-color: $border;
+    &.focus,
+    &:focus {
+        color: $color;
+        background-color: darken($background, 10%);
+        border-color: darken($border, 25%);
+    }
+    &:hover {
+        color: $color;
+        background-color: lighten($background, 10%);
+        border-color: darken($border, 12%);
+    }
+}
+html {
+  height: 100%;
+}
+
+table, td {
+    @include margin-auto;
+    border-collapse: collapse;
+    padding: 0px;
+}
+td:focus{
+  background-color: $color1;
+  outline:none;
+}
+button {
+  @include button-variant($color4, $color3, $color4);
+}
+#content {
+  display: table;
+  @include margin-auto;
+  text-align: left;
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  width: 800px;
+  @include colors($color3, $color4);
+  -webkit-box-shadow: 6px 6px 6px $color3;
+     -moz-box-shadow: 6px 6px 6px $color3;
+          box-shadow: 6px 6px 6px $color3;
+}
+#stories {
+  border-left: 2px $color2 solid;
+  padding-left: 10px;
+}
+#natural, #timestamp {
+  @include colors($color6, $color5);
+  // padding: 2px;
+}
+#output {
+  @include colors($color1, $color4);
+}
+
+.container, .container2 {
+  display: table;
+  @include margin-auto;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  width: 800px;
+  @include colors($color3, $color4);
+  -webkit-box-shadow: 6px 6px 6px $color3;
+     -moz-box-shadow: 6px 6px 6px $color3;
+          box-shadow: 6px 6px 6px $color3;
+}
+
+/****** Logo Div Styling ******/
+
+img {
+  margin-top: 15px;
+  width: 50px;
+}
+
+.clementine-text { /* Styling for the Clementine.js text */
+	padding: 0;
+	// margin: -25px 0 0 0;
+	font-weight: 500;
+	font-size: 20px;
+	color: $color3;
+}
+
+/****** Click Styling ******/
+// .container2 {
+//   display: none;
+// }
+/* Styling for the div that contains the buttons */
+.btn-container {
+	margin: -10px auto 0 auto;
+	text-align: center;
+}

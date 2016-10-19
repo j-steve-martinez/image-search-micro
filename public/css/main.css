@@ -1,0 +1,100 @@
+html {
+  height: 100%;
+}
+
+table, td {
+  margin: 5px auto;
+  border-collapse: collapse;
+  padding: 0px;
+}
+
+td:focus {
+  background-color: #026c36;
+  outline: none;
+}
+
+button {
+  color: #e5e5ae;
+  background-color: #5B7510;
+  border-color: #e5e5ae;
+}
+
+button.focus, button:focus {
+  color: #e5e5ae;
+  background-color: #38480a;
+  border-color: #c6c64d;
+}
+
+button:hover {
+  color: #e5e5ae;
+  background-color: #7ea216;
+  border-color: #d6d680;
+}
+
+#content {
+  display: table;
+  margin: 5px auto;
+  text-align: left;
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  width: 800px;
+  color: #5B7510;
+  background-color: #e5e5ae;
+  -webkit-box-shadow: 6px 6px 6px #5B7510;
+  -moz-box-shadow: 6px 6px 6px #5B7510;
+  box-shadow: 6px 6px 6px #5B7510;
+}
+
+#stories {
+  border-left: 2px #51F90C solid;
+  padding-left: 10px;
+}
+
+#natural, #timestamp {
+  color: #730c09;
+  background-color: #ebebd8;
+}
+
+#output {
+  color: #026c36;
+  background-color: #e5e5ae;
+}
+
+.container, .container2 {
+  display: table;
+  margin: 5px auto;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  width: 800px;
+  color: #5B7510;
+  background-color: #e5e5ae;
+  -webkit-box-shadow: 6px 6px 6px #5B7510;
+  -moz-box-shadow: 6px 6px 6px #5B7510;
+  box-shadow: 6px 6px 6px #5B7510;
+}
+
+/****** Logo Div Styling ******/
+img {
+  margin-top: 15px;
+  width: 50px;
+}
+
+.clementine-text {
+  /* Styling for the Clementine.js text */
+  padding: 0;
+  font-weight: 500;
+  font-size: 20px;
+  color: #5B7510;
+}
+
+/****** Click Styling ******/
+/* Styling for the div that contains the buttons */
+.btn-container {
+  margin: -10px auto 0 auto;
+  text-align: center;
+}

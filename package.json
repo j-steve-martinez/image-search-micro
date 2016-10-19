@@ -1,0 +1,29 @@
+{
+  "name": "isal-jsm",
+  "version": "1.0.0",
+  "description": "Image Search Abstraction Layer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "bugs": "",
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "Node",
+    "javascript",
+    "template"
+  ],
+  "author": "J. Steve Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongodb": "^2.0.42",
+    "request": "2.75.0"
+  }
+}

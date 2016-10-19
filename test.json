@@ -1,0 +1,242 @@
+{
+
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - dogs",
+                "totalResults": "266000000",
+                "searchTerms": "dogs",
+                "count": 10,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "002785040496228234675:1jidhseq0ay",
+                "searchType": "image"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - dogs",
+                "totalResults": "266000000",
+                "searchTerms": "dogs",
+                "count": 10,
+                "startIndex": 11,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "002785040496228234675:1jidhseq0ay",
+                "searchType": "image"
+            }
+        ]
+    },
+    "context": {
+        "title": "google_image"
+    },
+    "searchInformation": {
+        "searchTime": 0.193347,
+        "formattedSearchTime": "0.19",
+        "totalResults": "266000000",
+        "formattedTotalResults": "266,000,000"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "turning heads with dogs and humans - Speech Communication Lab",
+            "htmlTitle": "turning heads with <b>dogs</b> and humans - Speech Communication Lab",
+            "link": "https://sites.google.com/site/speechskscott/_/rsrc/1418660069272/SpeakingOut/turningheadswithdogsandhumans/dog6.jpg",
+            "displayLink": "sites.google.com",
+            "snippet": "some dogs (image from ...",
+            "htmlSnippet": "some <b>dogs</b> (image from ...",
+            "mime": "image/jpeg",
+            "image": {
+                "contextLink": "https://sites.google.com/site/speechskscott/SpeakingOut/turningheadswithdogsandhumans",
+                "height": 1080,
+                "width": 1920,
+                "byteSize": 262651,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVjoay465y9pJ9wXslsYgsFGKxdHGijeT105FlBaO46lIcCsF3W8lc84hY",
+                "thumbnailHeight": 84,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "dogswithwigs - ilikedirt",
+            "htmlTitle": "dogswithwigs - ilikedirt",
+            "link": "https://sites.google.com/site/ilikedirt/30853451.Tiffy2-full.jpg",
+            "displayLink": "sites.google.com",
+            "snippet": "here is a wonderful dog ...",
+            "htmlSnippet": "here is a wonderful <b>dog</b> ...",
+            "mime": "image/jpeg",
+            "image": {
+                "contextLink": "https://sites.google.com/site/ilikedirt/dogswithwigs",
+                "height": 412,
+                "width": 549,
+                "byteSize": 42687,
+                "thumbnailLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSjXp1F-LLXkGaHle8-5we1Ri2i60Fpm4YFdTRKT0p7VK4_KdeJQa1V4Vk9",
+                "thumbnailHeight": 100,
+                "thumbnailWidth": 133
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "dogswithwigs - ilikedirt",
+            "htmlTitle": "dogswithwigs - ilikedirt",
+            "link": "https://sites.google.com/site/ilikedirt/30853451.Tiffy2.jpg",
+            "displayLink": "sites.google.com",
+            "snippet": "here is a wonderful dog ...",
+            "htmlSnippet": "here is a wonderful <b>dog</b> ...",
+            "mime": "image/jpeg",
+            "image": {
+                "contextLink": "https://sites.google.com/site/ilikedirt/dogswithwigs",
+                "height": 412,
+                "width": 549,
+                "byteSize": 35092,
+                "thumbnailLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTOCYy_AWUeQjBIcFF-udaPqOI3vsEnVuiF9udDemG6_Xu5lmgHfk-AKqL8",
+                "thumbnailHeight": 100,
+                "thumbnailWidth": 133
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Independent Therapy Dogs, Inc.",
+            "htmlTitle": "Independent Therapy <b>Dogs</b>, Inc.",
+            "link": "https://sites.google.com/site/idtdinc/_/rsrc/1316218684354/in-the-news/11-09-09independenttherapydogsincisrecognizedatoneofakcstherapydogorganizations/11-09-09%20AKC%20acceptance%20letter.jpg",
+            "displayLink": "sites.google.com",
+            "snippet": "... Independent Therapy Dogs, ...",
+            "htmlSnippet": "... Independent Therapy <b>Dogs</b>, ...",
+            "mime": "image/jpeg",
+            "image": {
+                "contextLink": "https://sites.google.com/site/idtdinc/",
+                "height": 1800,
+                "width": 1200,
+                "byteSize": 182239,
+                "thumbnailLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRYwFDk5rO2z4QMd6PlsOMOB6koS98V6IXvoSr-dfEJLBWB0VwnirybSl0",
+                "thumbnailHeight": 150,
+                "thumbnailWidth": 100
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Dog Days of Summer - Boonton Arts",
+            "htmlTitle": "<b>Dog</b> Days of Summer - Boonton Arts",
+            "link": "https://sites.google.com/site/boontonartscouncil/_/rsrc/1467887470321/products-services/dog-days-of-summer/DOG%20DAYS%20LOGOwebsite.jpg?height=134&width=400",
+            "displayLink": "sites.google.com",
+            "snippet": "Dog Days of Summer",
+            "htmlSnippet": "<b>Dog</b> Days of Summer",
+            "mime": "image/jpeg",
+            "image": {
+                "contextLink": "https://sites.google.com/site/boontonartscouncil/products-services/dog-days-of-summer",
+                "height": 134,
+                "width": 397,
+                "byteSize": 12322,
+                "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDYefvMJdkkSw9u_K8VLQN6j7RhgSUe4jLF5S9SZfbCcj-xCj-X5wXBw",
+                "thumbnailHeight": 42,
+                "thumbnailWidth": 124
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "WATCH D.O.G.S. - American Falls Intermediate School",
+            "htmlTitle": "WATCH <b>D.O.G.S.</b> - American Falls Intermediate School",
+            "link": "https://sites.google.com/a/sd381.k12.id.us/american-falls-intermediate-school/_/rsrc/1412182457737/watch-d-o-g-s/Watch%20dogs%20document.png",
+            "displayLink": "sites.google.com",
+            "snippet": "WATCH D.O.G.S.",
+            "htmlSnippet": "WATCH <b>D.O.G.S.</b>",
+            "mime": "image/png",
+            "fileFormat": "Image Document",
+            "image": {
+                "contextLink": "https://sites.google.com/a/sd381.k12.id.us/american-falls-intermediate-school/watch-d-o-g-s",
+                "height": 233,
+                "width": 914,
+                "byteSize": 99224,
+                "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQd7ANjIURlljh4bCRifm9c0lxk34u4acCRicgqdOo3WToOVScz9Th0zFlD",
+                "thumbnailHeight": 37,
+                "thumbnailWidth": 147
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Nathan's Hot Dogs at Archibald's - Archibald's Deli",
+            "htmlTitle": "Nathan&#39;s Hot <b>Dogs</b> at Archibald&#39;s - Archibald&#39;s Deli",
+            "link": "https://sites.google.com/a/archibaldsdeli.com/archibald-s-deli/_/rsrc/1472872150535/nathan-s-hot-dogs-at-archibald-s/nathan-s-hot-dogs-at-archibald-s/hot-dogs-05-ss.jpg?height=336&width=420",
+            "displayLink": "sites.google.com",
+            "snippet": "Nathan's Hot Dogs at ...",
+            "htmlSnippet": "Nathan&#39;s Hot <b>Dogs</b> at ...",
+            "mime": "image/jpeg",
+            "image": {
+                "contextLink": "https://sites.google.com/a/archibaldsdeli.com/archibald-s-deli/nathan-s-hot-dogs-at-archibald-s/nathan-s-hot-dogs-at-archibald-s",
+                "height": 336,
+                "width": 413,
+                "byteSize": 35001,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX4d3t3AjwrJPJyldDIvMh3dlucTf_n6MvRQuuUBjfs1qfyZ2EsmrrXg",
+                "thumbnailHeight": 102,
+                "thumbnailWidth": 125
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Watch D.O.G.S. - John Glenn Middle School",
+            "htmlTitle": "Watch <b>D.O.G.S.</b> - John Glenn Middle School",
+            "link": "https://sites.google.com/a/desertsands.us/jgms/_/rsrc/1447705716577/parent-resources/watch-d-o-g-s/dog.png?height=319&width=400",
+            "displayLink": "sites.google.com",
+            "snippet": "Watch D.O.G.S.",
+            "htmlSnippet": "Watch <b>D.O.G.S.</b>",
+            "mime": "image/png",
+            "fileFormat": "Image Document",
+            "image": {
+                "contextLink": "https://sites.google.com/a/desertsands.us/jgms/parent-resources/watch-d-o-g-s",
+                "height": 215,
+                "width": 269,
+                "byteSize": 72252,
+                "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT0W6VSl-tYK3RkuIKww2BRLf1Jb8E-ke9l8u6VIAUyFfh4eDjySg2QKSk",
+                "thumbnailHeight": 90,
+                "thumbnailWidth": 113
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "dogbikecarrier",
+            "htmlTitle": "dogbikecarrier",
+            "link": "https://sites.google.com/site/dogbikecarrier/HPIM1228.JPG",
+            "displayLink": "sites.google.com",
+            "snippet": "Step 2:",
+            "htmlSnippet": "Step 2:",
+            "mime": "image/jpeg",
+            "image": {
+                "contextLink": "https://sites.google.com/site/dogbikecarrier/",
+                "height": 1952,
+                "width": 2576,
+                "byteSize": 1025006,
+                "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5zJX0YrArsyzCTaHU1AoP5S2E5JM_GqOYkWwmwSWjoP7NqljVwjc6x2QJ",
+                "thumbnailHeight": 114,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "VINS Dog Show - Northampton VINS",
+            "htmlTitle": "VINS <b>Dog</b> Show - Northampton VINS",
+            "link": "https://sites.google.com/site/northamptonvins/_/rsrc/1453739662208/events/vins-dog-show/Dog%20Show%202015%20Kako.jpg",
+            "displayLink": "sites.google.com",
+            "snippet": "MARCH FORTH WITH YOUR DOG: ...",
+            "htmlSnippet": "MARCH FORTH WITH YOUR <b>DOG</b>: ...",
+            "mime": "image/jpeg",
+            "image": {
+                "contextLink": "https://sites.google.com/site/northamptonvins/events/vins-dog-show",
+                "height": 1124,
+                "width": 792,
+                "byteSize": 190013,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh9I-W9alEeW0xMgMg3Z2GX-_Xw44UinVxa7NYabcxEIyI2MlVgvq4JI_A",
+                "thumbnailHeight": 150,
+                "thumbnailWidth": 106
+            }
+        }
+    ]
+
+}
