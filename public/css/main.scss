@@ -40,7 +40,9 @@ $color7: #A40CEC;
 html {
   height: 100%;
 }
-
+body {
+  @include colors($color1, $color5);
+}
 table, td {
     @include margin-auto;
     border-collapse: collapse;
@@ -71,8 +73,8 @@ button {
   border-left: 2px $color2 solid;
   padding-left: 10px;
 }
-#natural, #timestamp {
-  @include colors($color6, $color5);
+#natural, #google {
+  @include colors($color6, $color4);
   // padding: 2px;
 }
 #output {

@@ -7,8 +7,8 @@
    var clickNbr = document.querySelector('#click-nbr');
 
    var base = document.URL;
-   var nLoc = base + 'api/search/pie';
-   var gLoc = base + 'api/google/pie'
+   var nLoc = base + 'api/google/dog';
+   var gLoc = base + 'api/recent'
    var natural = document.getElementById('natural');
    var google = document.getElementById('google');
    natural.innerHTML = nLoc;

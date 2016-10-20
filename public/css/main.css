@@ -2,6 +2,11 @@ html {
   height: 100%;
 }
 
+body {
+  color: #026c36;
+  background-color: #ebebd8;
+}
+
 table, td {
   margin: 5px auto;
   border-collapse: collapse;
@@ -52,9 +57,9 @@ button:hover {
   padding-left: 10px;
 }
 
-#natural, #timestamp {
+#natural, #google {
   color: #730c09;
-  background-color: #ebebd8;
+  background-color: #e5e5ae;
 }
 
 #output {

@@ -3,21 +3,26 @@
 var express = require('express');
 var mongo = require('mongodb');
 var request = require('request');
-var test = require('assert');
+
+// NOTE: for development
+// var test = require('assert');
+// NOTE:
+
 var routes = require('./app/routes/index.js');
 var app = express();
 
 // get the port and url from the environment
 var port = process.env.PORT;
-var url = process.env.isal;
+var url = process.env.SHORTY;
 
 // if not set use 3000 as the default
 if (port === undefined) {
   port = 3000;
 }
 
-// for development connect to local db
-url = 'mongodb://localhost:27017/isal'
+// NOTE: for development connect to local db
+// url = 'mongodb://localhost:27017/isal'
+// NOTE:
 
 mongo.connect(url, function (err, db) {
 
@@ -59,21 +64,6 @@ mongo.connect(url, function (err, db) {
 
    app.use('/public', express.static(process.cwd() + '/public'));
    app.use('/controllers', express.static(process.cwd() + '/app/controllers'));
-  //  app.get('/api/search/:query', function(req, res){
-  //    var query = req.params.query;
-  //    var url = 'http://api.duckduckgo.com/?q=' + query +'&format=json&pretty=1';
-  //   //  res.send('Do a search for: ' + url);
-  //         //  clickHandler.ajaxRequest (method, url, callback)
-  //     request(url, function (error, response, body) {
-  //       // console.log(error);
-  //       console.log(response);
-  //       // console.log(body);
-  //       if (!error && response.statusCode == 200) {
-  //         console.log(body) // Print the body of response.
-  //         res.send(response);
-  //       }
-  //     })
-  //  });
 
    routes(app, db);
 
